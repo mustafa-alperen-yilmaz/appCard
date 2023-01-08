@@ -12,7 +12,7 @@ List<Datas> datasParse(String bodyResponse) {
 // fetching the data
 Future<List<Datas>> datasFetch() async {
   final fetchResponse =
-      await http.get(Uri.parse("https://jsonplaceholder.typicode.com/photos"));
+      await http.get(Uri.parse("https://github.com/mustafa-alperen-yilmaz/appCard/blob/master/assets/data.json"));
   if (fetchResponse.statusCode == 200) {
     return compute(datasParse, fetchResponse.body);
   } else {

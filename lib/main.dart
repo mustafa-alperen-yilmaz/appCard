@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'dart:convert';
+import 'Fetch/fetch.dart';
 
 import 'package:flutter/services.dart';
 
@@ -20,8 +21,9 @@ class MyApp extends StatelessWidget {
 }
 
 class HomePage extends StatefulWidget {
+  const HomePage({Key? key}) : super(key: key);
   @override
-  _HomePageState createState() => _HomePageState();
+  State<HomePage> createState() => _HomePageState();
 }
 
 class _HomePageState extends State<HomePage> {
@@ -88,12 +90,37 @@ class _HomePageState extends State<HomePage> {
                                         ),
                                       ),
                                       child: Center(
-                                        child: Text(
-                                          "amk",
-                                          style: TextStyle(
-                                            fontSize: 30.0,
-                                          ),
-                                        ),
+                                        child: FutureBuilder(
+                                            future: datasFetch(),
+                                            builder: (BuildContext context,
+                                                AsyncSnapshot snapshot) {
+                                              if (snapshot.hasData) {
+                                                return ListView.builder(
+                                                  itemCount: 1,
+                                                  itemBuilder:
+                                                      (BuildContext context,
+                                                          int index) {
+                                                    String name = snapshot
+                                                        .data[index].name;
+                                                    return ListTile(
+                                                        title: Text(name));
+                                                  },
+                                                );
+                                              } else {
+                                                // error message
+                                                return Container(
+                                                  color: Colors.blue,
+                                                  child: Text(
+                                                    "message",
+                                                    style: const TextStyle(
+                                                        color: Colors.white,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: 20),
+                                                  ),
+                                                );
+                                              }
+                                            }),
                                       ),
                                     ),
                                   ) //else we will display it here,

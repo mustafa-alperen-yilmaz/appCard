@@ -1,18 +1,19 @@
-[
-    {
-        "id":1,
-        "name" : "deneme1"
-    },
-    {
-        "id":2,
-        "name" : "deneme2"
-    },
-    {
-        "id":3,
-        "name" : "deneme3"
-    },
-    {
-        "id":4,
-        "name" : "deneme4"
-    }
-]
+{
+    "büyük_languages": [
+        {
+            "id": 1,
+            "tr": "test1 türkçe",
+            "en": "test1 english"
+        },
+        {
+            "id": 2,
+            "tr": "test22 türkçe",
+            "en": "test22 english"
+        },
+        {
+            "id": 3,
+            "tr": "test333 türkçe",
+            "en": "test333 english"
+        }
+    ]
+}

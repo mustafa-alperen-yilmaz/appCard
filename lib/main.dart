@@ -1,15 +1,14 @@
-import 'package:flutter/material.dart';
-import 'dart:math';
 import 'dart:convert';
-import 'dart:ui';
+import 'dart:math';
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'dart:ui';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -21,6 +20,7 @@ class MyApp extends StatelessWidget {
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
+
   @override
   State<HomePage> createState() => _HomePageState();
 }
@@ -28,58 +28,69 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   bool isBack = true;
   double angle = 0;
+  int? currentSentenceId;
   String randomSentence = '';
   String selectedLanguage = window.locale.languageCode.toLowerCase();
-  String newLanguage = '';
-  String currentRandomSentence = '';
   bool languageChanged = false;
-  String currentLanguage = '';
-  List<dynamic> languages = [];
-  
+
   @override
   void initState() {
     super.initState();
-    currentLanguage = selectedLanguage;
     loadRandomSentence();
   }
 
- Future<void> loadRandomSentence() async {
+  Future<void> loadRandomSentence() async {
   final jsonString = await rootBundle.loadString('assets/data.json');
   final dataMap = jsonDecode(jsonString) as Map<String, dynamic>;
   final languageData = dataMap['büyük_languages'] as List<dynamic>;
 
-  // Find the language with the same 'id' as the current randomLanguage
-  final currentId = languageData.firstWhere(
-    (element) => element[currentLanguage] == currentRandomSentence,
-    orElse: () => null,
-  )?['id'];
+  // Rastgele bir cümle seç
+  final randomIndex = Random().nextInt(languageData.length);
+  final selectedSentence = languageData[randomIndex];
+  currentSentenceId = selectedSentence['id'];
 
-  // Shuffle the list
-  languageData.shuffle();
-
-  // Find a language with the same 'id' as the current randomLanguage after shuffling
-  final randomLanguage = (currentId != null)
-      ? languageData.firstWhere(
-          (element) => element['id'] == currentId,
-          orElse: () => languageData.first,
-        )
-      : languageData.first;
+  final currentSentence = languageData.firstWhere(
+    (sentence) => sentence['id'] == currentSentenceId,
+    orElse: () => languageData.first,
+  );
 
   setState(() {
-    randomSentence = randomLanguage[currentLanguage];
-    currentRandomSentence = randomSentence;
+    randomSentence = currentSentence['quotes'][selectedLanguage];
+    isBack = true; // Kartı her yüklemede arka yüze çevir
   });
 }
-
-
-  void _flip() async {
+void _flip() async {
   setState(() {
     angle = (angle + pi) % (2 * pi);
-    if (isBack == true && languageChanged){
+    if (isBack == true){
       loadRandomSentence();
     }
   });
 }
+/*
+  void _flip() {
+  setState(() {
+    angle = (angle + pi) % (2 * pi);
+  });
+
+  if (angle % (2 * pi) == 0) {
+    if (!isBack) {
+      isBack = true;
+      if (!languageChanged) {
+        //currentSentenceId == null;
+        loadRandomSentence();
+      } else {
+        // Dil değişikliği yapıldıysa, sadece cümleyi güncelle ve languageChanged'i sıfırla.
+        languageChanged = false;
+        updateSentenceForCurrentLanguage();
+      }
+    }
+  } else {
+    isBack = false;
+  }
+}
+*/
+
 
   void _showLanguageMenu() {
     showModalBottomSheet(
@@ -109,17 +120,36 @@ class _HomePageState extends State<HomePage> {
       },
     );
   }
+
   void _changeLanguage(String language) {
-  setState(() {
-    if (selectedLanguage != language) {
-      // Check if the language is different
+  if (selectedLanguage != language) {
+    setState(() {
       selectedLanguage = language;
       languageChanged = true;
-      currentLanguage = language;
-    }
-  });
+    });
+    // Sadece metni güncelle, yeni bir rastgele cümle seçme
+    updateSentenceForCurrentLanguage();
+  }
+}
+Future<void> updateSentenceForCurrentLanguage() async {
+  if (currentSentenceId == null) return; // Güvenlik kontrolü
 
-  loadRandomSentence();
+  final jsonString = await rootBundle.loadString('assets/data.json');
+  final dataMap = jsonDecode(jsonString) as Map<String, dynamic>;
+  final languageData = dataMap['büyük_languages'] as List<dynamic>;
+
+  final currentSentence = languageData.firstWhere(
+    (sentence) => sentence['id'] == currentSentenceId,
+    orElse: () => null,
+  );
+
+  if (currentSentence != null) {
+    setState(() {
+      randomSentence = currentSentence['quotes'][selectedLanguage];
+      // Eğer dil değişikliği yapıldıysa ve cümle güncelleniyorsa, kartın ön yüzünü göster.
+      isBack = false;
+    });
+  }
 }
 
   @override
@@ -144,9 +174,7 @@ class _HomePageState extends State<HomePage> {
                     }
                     return Transform(
                       alignment: Alignment.center,
-                      transform: Matrix4.identity()
-                        ..setEntry(3, 2, 0.001)
-                        ..rotateY(val),
+                      transform: Matrix4.identity()..setEntry(3, 2, 0.001)..rotateY(val),
                       child: Container(
                         width: 309,
                         height: 474,
@@ -161,8 +189,7 @@ class _HomePageState extends State<HomePage> {
                               )
                             : Transform(
                                 alignment: Alignment.center,
-                                transform: Matrix4.identity()
-                                  ..rotateY(pi),
+                                transform: Matrix4.identity()..rotateY(pi),
                                 child: Container(
                                   decoration: BoxDecoration(
                                     borderRadius: BorderRadius.circular(10.0),

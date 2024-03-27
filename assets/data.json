@@ -1,19 +1,47 @@
 {
     "büyük_languages": [
-        {
-            "id": 1,
-            "tr": "test1 türkçe",
-            "en": "test1 english"
-        },
-        {
-            "id": 2,
-            "tr": "test22 türkçe",
-            "en": "test22 english"
-        },
-        {
-            "id": 3,
-            "tr": "test333 türkçe",
-            "en": "test333 english"
+      {
+        "id": 1,
+        "quotes": {
+          "tr": "test1 türkçe",
+          "en": "test1 english"
         }
+      },
+      {
+        "id": 2,
+        "quotes": {
+          "tr": "test22 türkçe",
+          "en": "test22 english"
+        }
+      },
+      {
+        "id": 3,
+        "quotes": {
+          "tr": "test333 türkçe",
+          "en": "test333 english"
+        }
+      },
+      {
+        "id": 4,
+        "quotes": {
+          "tr": "test4 türkçe",
+          "en": "test4 english"
+        }
+      },
+      {
+        "id": 5,
+        "quotes": {
+          "tr": "test5 türkçe",
+          "en": "test5 english"
+        }
+      },
+      {
+        "id": 6,
+        "quotes": {
+          "tr": "test6 türkçe",
+          "en": "test6 english"
+        }
+      }
     ]
-}
+  }
+  

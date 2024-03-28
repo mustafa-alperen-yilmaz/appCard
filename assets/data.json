@@ -4,42 +4,54 @@
         "id": 1,
         "quotes": {
           "tr": "test1 türkçe",
-          "en": "test1 english"
+          "en": "test1 english",
+          "ru":"Да",
+          "esp":"test1 esp"
         }
       },
       {
         "id": 2,
         "quotes": {
           "tr": "test22 türkçe",
-          "en": "test22 english"
+          "en": "test22 english",
+          "ru":"Да",
+          "esp":"test2 esp"
         }
       },
       {
         "id": 3,
         "quotes": {
           "tr": "test333 türkçe",
-          "en": "test333 english"
+          "en": "test333 english",
+          "ru":"Да",
+          "esp":"test3 esp"
         }
       },
       {
         "id": 4,
         "quotes": {
           "tr": "test4 türkçe",
-          "en": "test4 english"
+          "en": "test4 english",
+          "ru":"Да",
+          "esp":"test4 esp"
         }
       },
       {
         "id": 5,
         "quotes": {
           "tr": "test5 türkçe",
-          "en": "test5 english"
+          "en": "test5 english",
+          "ru":"Да",
+          "esp":"test5 esp"
         }
       },
       {
         "id": 6,
         "quotes": {
           "tr": "test6 türkçe",
-          "en": "test6 english"
+          "en": "test6 english",
+          "ru":"Да",
+          "esp":"test6 esp"
         }
       }
     ]

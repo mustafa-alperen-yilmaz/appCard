@@ -101,6 +101,10 @@ void _flip() async {
             mainAxisSize: MainAxisSize.min,
             children: [
               ListTile(
+                leading: CircleAvatar(
+        backgroundImage: AssetImage('assets/flags/turkey.jpg'),
+        radius: 12, // Yarıçapı 12 olarak ayarla
+      ),
                 title: Text('Turkish'),
                 onTap: () {
                   _changeLanguage('tr');
@@ -111,6 +115,20 @@ void _flip() async {
                 title: Text('English'),
                 onTap: () {
                   _changeLanguage('en');
+                  Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: Text('russian'),
+                onTap: () {
+                  _changeLanguage('ru');
+                  Navigator.pop(context);
+                },
+              ),
+              ListTile(
+                title: Text('espanol'),
+                onTap: () {
+                  _changeLanguage('esp');
                   Navigator.pop(context);
                 },
               ),

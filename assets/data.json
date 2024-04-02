@@ -1,59 +1,247 @@
 {
-    "büyük_languages": [
-      {
-        "id": 1,
-        "quotes": {
-          "tr": "test1 türkçe",
-          "en": "test1 english",
-          "ru":"Да",
-          "esp":"test1 esp"
-        }
-      },
-      {
-        "id": 2,
-        "quotes": {
-          "tr": "test22 türkçe",
-          "en": "test22 english",
-          "ru":"Да",
-          "esp":"test2 esp"
-        }
-      },
-      {
-        "id": 3,
-        "quotes": {
-          "tr": "test333 türkçe",
-          "en": "test333 english",
-          "ru":"Да",
-          "esp":"test3 esp"
-        }
-      },
-      {
-        "id": 4,
-        "quotes": {
-          "tr": "test4 türkçe",
-          "en": "test4 english",
-          "ru":"Да",
-          "esp":"test4 esp"
-        }
-      },
-      {
-        "id": 5,
-        "quotes": {
-          "tr": "test5 türkçe",
-          "en": "test5 english",
-          "ru":"Да",
-          "esp":"test5 esp"
-        }
-      },
-      {
-        "id": 6,
-        "quotes": {
-          "tr": "test6 türkçe",
-          "en": "test6 english",
-          "ru":"Да",
-          "esp":"test6 esp"
-        }
+  "büyük_languages": [
+    {
+      "id": 1,
+      "quotes": {
+        "tr": "test1 türkçe",
+        "en": "test1 english",
+        "ru": "Да",
+        "esp": "test1 esp"
       }
-    ]
-  }
-  
+    },
+    {
+      "id": 2,
+      "quotes": {
+        "tr": "evet",
+        "en": "yes",
+        "ru": "да",
+        "esp": "sí"
+      }
+    },
+    {
+      "id": 3,
+      "quotes": {
+        "tr": "hayır",
+        "en": "no",
+        "ru": "нет",
+        "esp": "no"
+      }
+    },
+    {
+      "id": 4,
+      "quotes": {
+        "tr": "belki",
+        "en": "maybe",
+        "ru": "может быть",
+        "esp": "tal vez"
+      }
+    },
+    {
+      "id": 5,
+      "quotes": {
+        "tr": "tadını çıkar",
+        "en": "enjoy",
+        "ru": "наслаждаться",
+        "esp": "disfruta"
+      }
+    },
+    {
+      "id": 6,
+      "quotes": {
+        "tr": "elinden geleni yap",
+        "en": "do your best",
+        "ru": "делай все возможное",
+        "esp": "haz lo mejor que puedas"
+      }
+    },
+    {
+      "id": 7,
+      "quotes": {
+        "tr": "Kendine karşı dürüst ol",
+        "en": "be honest with yourself",
+        "ru": "будьте честны с собой",
+        "esp": "sé honesto contigo mismo"
+      }
+    },
+    {
+      "id": 8,
+      "quotes": {
+        "tr": "Güven",
+        "en": "trust",
+        "ru": "доверять",
+        "esp": "confiar"
+      }
+    },
+    {
+      "id": 9,
+      "quotes": {
+        "tr": "Zor",
+        "en": "difficult",
+        "ru": "трудный",
+        "esp": "difícil"
+      }
+    },
+    {
+      "id": 10,
+      "quotes": {
+        "tr": "dikkatlice düşün",
+        "en": "think carefully",
+        "ru": "подумайте внимательно",
+        "esp": "piensa cuidadosamente"
+      }
+    },
+    {
+      "id": 11,
+      "quotes": {
+        "tr": "Artılarını ve eksilerini tart",
+        "en": "weigh the pros and cons",
+        "ru": "взвесить плюсы и минусы",
+        "esp": "pondera los pros y los contras"
+      }
+    },
+    {
+      "id": 12,
+      "quotes": {
+        "tr": "değerlendir",
+        "en": "evaluate",
+        "ru": "оценивать",
+        "esp": "evaluar"
+      }
+    },
+    {
+      "id": 13,
+      "quotes": {
+        "tr": "Sezgilerine güven",
+        "en": "trust your instincts",
+        "ru": "доверяйте своей интуиции",
+        "esp": "confía en tus instintos"
+      }
+    },
+    {
+      "id": 14,
+      "quotes": {
+        "tr": "araştır",
+        "en": "research",
+        "ru": "исследовать",
+        "esp": "investigar"
+      }
+    },
+    {
+      "id": 15,
+      "quotes": {
+        "tr": "düşün",
+        "en": "think",
+        "ru": "думайте",
+        "esp": "piensa"
+      }
+    },
+    {
+      "id": 16,
+      "quotes": {
+        "tr": "iç sesini dinle",
+        "en": "listen to your inner voice",
+        "ru": "слушай свой внутренний голос",
+        "esp": "escucha tu voz interior"
+      }
+    },
+    {
+      "id": 17,
+      "quotes": {
+        "tr": "Uçurtma misali, rüzgarın seni nereye sürükleyeceğini bekleme, kendi rüzgarını yarat",
+        "en": "Like a kite, don't wait for the wind to take you where it wants, create your own wind",
+        "ru": "Как воздушный змей, не жди, куда унесет тебя ветер, создай свой собственный ветер",
+        "esp": "Como una cometa, no esperes a que el viento te lleve donde quiera, crea tu propio viento"
+      }
+    },
+    {
+      "id": 18,
+      "quotes": {
+        "tr": "Kendini bil, potansiyelini keşfet",
+        "en": "Know yourself, explore your potential",
+        "ru": "Знай себя, исследуй свой потенциал",
+        "esp": "Conócete a ti mismo, explora tu potencial"
+      }
+    },
+    {
+      "id": 19,
+      "quotes": {
+        "tr": "İşleyen demir pas tutmaz",
+        "en": "A rolling stone gathers no moss",
+        "ru": "Камень, катящийся с горы, не набирает мха",
+        "esp": "Piedra movediza, musgo no cobija"
+      }
+    },
+    {
+      "id": 20,
+      "quotes": {
+        "tr": "Ter dökmeden, ekmek yemeyeceksin",
+        "en": "No pain, no gain",
+        "ru": "Без труда не вытянешь и рыбку из пруда",
+        "esp": "El que no trabaja, no come"
+      }
+    },
+    {
+      "id": 21,
+      "quotes": {
+        "tr": "Değişiklikten korkma, yeni ufuklara yelken aç",
+        "en": "Don't be afraid of change, set sail for new horizons",
+        "ru": "Не бойтесь перемен, отправляйтесь в плавание к новым горизонтам",
+        "esp": "No tengas miedo al cambio, navega hacia nuevos horizontes"
+      }
+    },
+    {
+      "id": 22,
+      "quotes": {
+        "tr": "Hesap kitap yapmadan yola çıkma",
+        "en": "Don't embark on a journey without planning",
+        "ru": "Не отправляйтесь в путь без планирования",
+        "esp": "No emprendas un viaje sin planificar"
+      }
+    },
+    {
+      "id": 23,
+      "quotes": {
+        "tr": "tedbiri elden bırakma",
+        "en": "don't let your guard down",
+        "ru": "не опускайте бдительность",
+        "esp": "no bajes la guardia"
+      }
+    },
+    {
+      "id": 24,
+      "quotes": {
+        "tr": "Kendine iyi bak",
+        "en": "Take care of yourself",
+        "ru": "Заботься о себе",
+        "esp": "Cuídate"
+      }
+    },
+    {
+      "id": 25,
+      "quotes": {
+        "tr": "Mutluluk dışarıda değil",
+        "en": "Happiness is not external",
+        "ru": "Счастье не во внешних вещах",
+        "esp": "La felicidad no es externa"
+      }
+    },
+    {
+      "id": 26,
+      "quotes": {
+        "tr": "karanlığın içinde ışık ol",
+        "en": "be a light in the darkness",
+        "ru": "будь светом во тьме",
+        "esp": "sé una luz en la oscuridad"
+      }
+    },
+    {
+      "id": 27,
+      "quotes": {
+        "tr": "Anı yaşa",
+        "en": "Live in the moment",
+        "ru": "Живите настоящим",
+        "esp": "Vive el momento"
+      }
+    }
+  ]
+}

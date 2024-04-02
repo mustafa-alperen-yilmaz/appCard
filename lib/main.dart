@@ -3,9 +3,11 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:ui';
+import 'package:flutter/material.dart';
+import 'Splash/splash.dart'; 
 
 void main() {
-  runApp(MyApp());
+  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen()));
 }
 
 class MyApp extends StatelessWidget {
@@ -67,31 +69,6 @@ void _flip() async {
     }
   });
 }
-/*
-  void _flip() {
-  setState(() {
-    angle = (angle + pi) % (2 * pi);
-  });
-
-  if (angle % (2 * pi) == 0) {
-    if (!isBack) {
-      isBack = true;
-      if (!languageChanged) {
-        //currentSentenceId == null;
-        loadRandomSentence();
-      } else {
-        // Dil değişikliği yapıldıysa, sadece cümleyi güncelle ve languageChanged'i sıfırla.
-        languageChanged = false;
-        updateSentenceForCurrentLanguage();
-      }
-    }
-  } else {
-    isBack = false;
-  }
-}
-*/
-
-
   void _showLanguageMenu() {
     showModalBottomSheet(
       context: context,
@@ -102,10 +79,10 @@ void _flip() async {
             children: [
               ListTile(
                 leading: CircleAvatar(
-        backgroundImage: AssetImage('assets/flags/turkey.jpg'),
-        radius: 12, // Yarıçapı 12 olarak ayarla
-      ),
-                title: Text('Turkish'),
+                backgroundImage: AssetImage('assets/flags/turkey.jpg'),
+                radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
+                title: Text('Türkçe'),
                 onTap: () {
                   _changeLanguage('tr');
                   Navigator.pop(context);
@@ -119,14 +96,14 @@ void _flip() async {
                 },
               ),
               ListTile(
-                title: Text('russian'),
+                title: Text('Русский'),
                 onTap: () {
                   _changeLanguage('ru');
                   Navigator.pop(context);
                 },
               ),
               ListTile(
-                title: Text('espanol'),
+                title: Text('Español'),
                 onTap: () {
                   _changeLanguage('esp');
                   Navigator.pop(context);
@@ -216,12 +193,15 @@ Future<void> updateSentenceForCurrentLanguage() async {
                                     ),
                                   ),
                                   child: Center(
-                                    child: Text(
-                                      randomSentence,
-                                      style: TextStyle(
-                                        fontSize: 18.0,
-                                        color: Colors.black,
-                                        fontWeight: FontWeight.bold,
+                                    child: Container(
+                                      margin: EdgeInsets.symmetric(horizontal: 8.0), // Sağdan ve soldan 8.0 birim margin ekler
+                                      child: Text(
+                                        randomSentence,
+                                        style: TextStyle(
+                                          fontSize: 18.0,
+                                          color: Colors.black,
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
                                     ),
                                   ),

@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import '../main.dart'; // MyApp sınıfınızın bulunduğu dosyanın yolu
+import '../main.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -134,19 +134,17 @@ class BorderPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = Colors.blue // Start color
+      ..color = Colors.blue
       ..style = PaintingStyle.stroke
       ..strokeWidth = 5;
 
-    // Use the drawArc method to rotate the gradient around the center
     paint.shader = SweepGradient(
-      colors: [Colors.white, Color.fromARGB(255, 70, 21, 150), Colors.white], // Color transition
+      colors: [Colors.white, Color.fromARGB(255, 70, 21, 150), Colors.white],
       startAngle: 0.0,
       endAngle: math.pi * 2,
       transform: GradientRotation(progress),
     ).createShader(Rect.fromLTWH(0, 0, size.width, size.height));
 
-    // Create a circular path that represents the border
     var path = Path()
       ..addRect(Rect.fromLTWH(0, 0, size.width, size.height));
     canvas.drawPath(path, paint);

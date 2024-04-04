@@ -3,8 +3,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'dart:ui';
-import 'package:flutter/material.dart';
 import 'Splash/splash.dart'; 
+//import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 void main() {
   runApp(MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen()));

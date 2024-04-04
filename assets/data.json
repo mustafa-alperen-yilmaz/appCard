@@ -3,10 +3,10 @@
     {
       "id": 1,
       "quotes": {
-        "tr": "test1 türkçe",
-        "en": "test1 english",
-        "ru": "Да",
-        "esp": "test1 esp"
+        "tr": "Kendin ol",
+        "en": "Be yourself",
+        "ru": "Будь собой",
+        "esp": "Sé tú mismo"
       }
     },
     {
@@ -242,6 +242,80 @@
         "ru": "Живите настоящим",
         "esp": "Vive el momento"
       }
-    }
+    },
+    [
+      {
+        "id": 28,
+        "quotes": {
+          "tr": "Her gün yeni bir başlangıçtır",
+          "en": "Every day is a new beginning",
+          "ru": "Каждый день - это новое начало",
+          "esp": "Cada día es un nuevo comienzo"
+        }
+      },
+      {
+        "id": 29,
+        "quotes": {
+          "tr": "Geçmişe takılıp kalma, geleceğe bak",
+          "en": "Don't dwell on the past, look to the future",
+          "ru": "Не зацикливайтесь на прошлом, смотрите в будущее",
+          "esp": "No te aferres al pasado, mira hacia el futuro"
+        }
+      },
+      {
+        "id": 30,
+        "quotes": {
+          "tr": "Sevdiklerinize değer verin ve onlarla zaman geçirin",
+          "en": "Value your loved ones and spend time with them",
+          "ru": "Цените своих близких и проводите с ними время",
+          "esp": "Valora a tus seres queridos y pasa tiempo con ellos"
+        }
+      },
+      {
+        "id": 31,
+        "quotes": {
+          "tr": "Asla pes etme",
+          "en": "Never give up",
+          "ru": "Никогда не сдавайтесь",
+          "esp": "Nunca te rindas"
+        }
+      },
+      {
+        "id": 32,
+        "quotes": {
+          "tr": "Hayatta her zaman istediğinizi elde edemezsiniz",
+          "en": "You can't always get what you want in life",
+          "ru": "В жизни не всегда получаешь то, что хочешь",
+          "esp": "No siempre puedes conseguir lo que quieres en la vida"
+        }
+      },
+      {
+        "id": 33,
+        "quotes": {
+          "tr": "Normal",
+          "en": "Normal",
+          "ru": "Нормально",
+          "esp": "Normal"
+        }
+      },
+      {
+        "id": 34,
+        "quotes": {
+          "tr": "Her şey mükemmel olmayacak",
+          "en": "Not everything will be perfect",
+          "ru": "Не все будет идеально",
+          "esp": "No todo será perfecto"
+        }
+      },
+      {
+        "id": 35,
+        "quotes": {
+          "tr": "Her şey mükemmel olacak",
+          "en": "Everything will be perfect",
+          "ru": "Все будет идеально",
+          "esp": "Todo será perfecto"
+        }
+      }
+    ]
   ]
 }

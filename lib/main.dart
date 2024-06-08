@@ -89,6 +89,10 @@ void _flip() async {
                 },
               ),
               ListTile(
+                leading: CircleAvatar(
+                backgroundImage: AssetImage('assets/flags/england.jpg'),
+                radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
                 title: Text('English'),
                 onTap: () {
                   _changeLanguage('en');
@@ -96,6 +100,10 @@ void _flip() async {
                 },
               ),
               ListTile(
+                leading: CircleAvatar(
+                backgroundImage: AssetImage('assets/flags/russian.jpg'),
+                radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
                 title: Text('Русский'),
                 onTap: () {
                   _changeLanguage('ru');
@@ -103,6 +111,10 @@ void _flip() async {
                 },
               ),
               ListTile(
+                leading: CircleAvatar(
+                backgroundImage: AssetImage('assets/flags/espanol.jpg'),
+                radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
                 title: Text('Español'),
                 onTap: () {
                   _changeLanguage('esp');

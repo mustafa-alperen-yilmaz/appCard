@@ -72,59 +72,152 @@ void _flip() async {
   void _showLanguageMenu() {
     showModalBottomSheet(
       context: context,
+      backgroundColor: Colors.transparent,
       builder: (BuildContext context) {
         return Container(
+          decoration: BoxDecoration(
+          color: const Color.fromARGB(245, 245, 245, 1000), // Arka plan rengi
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(20.0), // Üst sol köşe yuvarlatma
+            topRight: Radius.circular(20.0), // Üst sağ köşe yuvarlatma
+          ),
+        ),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              ListTile(
-                leading: CircleAvatar(
-                backgroundImage: AssetImage('assets/flags/turkey.jpg'),
-                radius: 12, // Yarıçapı 12 olarak ayarla
+            Container(
+              decoration: BoxDecoration(
+                border: Border(
+                  bottom: BorderSide(color: Colors.grey, width: 1.0),
+                ),
+              ),
+              child: ListTile(
+                leading: Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2), // Gölge rengi
+                        spreadRadius: 1,
+                        blurRadius: 5,
+                        offset: Offset(0, 2), // Gölgenin yerleşimi
+                      ),
+                    ],
                   ),
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage('assets/flags/turkey.jpg'),
+                    radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
+                ),
                 title: Text('Türkçe'),
                 onTap: () {
                   _changeLanguage('tr');
                   Navigator.pop(context);
                 },
               ),
-              ListTile(
-                leading: CircleAvatar(
-                backgroundImage: AssetImage('assets/flags/england.jpg'),
-                radius: 12, // Yarıçapı 12 olarak ayarla
+            ),
+            Container(
+              decoration: BoxDecoration(
+                border: Border(
+                  bottom: BorderSide(color: Colors.grey, width: 1.0),
+                ),
+              ),
+              child: ListTile(
+                leading: Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2), // Gölge rengi
+                        spreadRadius: 1,
+                        blurRadius: 5,
+                        offset: Offset(0, 2), // Gölgenin yerleşimi
+                      ),
+                    ],
                   ),
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage('assets/flags/england.jpg'),
+                    radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
+                ),
                 title: Text('English'),
                 onTap: () {
                   _changeLanguage('en');
                   Navigator.pop(context);
                 },
               ),
-              ListTile(
-                leading: CircleAvatar(
-                backgroundImage: AssetImage('assets/flags/russian.jpg'),
-                radius: 12, // Yarıçapı 12 olarak ayarla
+            ),
+            Container(
+              decoration: BoxDecoration(
+                border: Border(
+                  bottom: BorderSide(color: Colors.grey, width: 1.0),
+                ),
+              ),
+              child: ListTile(
+                leading: Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2), // Gölge rengi
+                        spreadRadius: 1,
+                        blurRadius: 5,
+                        offset: Offset(0, 2), // Gölgenin yerleşimi
+                      ),
+                    ],
                   ),
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage('assets/flags/russian.jpg'),
+                    radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
+                ),
                 title: Text('Русский'),
                 onTap: () {
                   _changeLanguage('ru');
                   Navigator.pop(context);
                 },
               ),
-              ListTile(
-                leading: CircleAvatar(
-                backgroundImage: AssetImage('assets/flags/espanol.jpg'),
-                radius: 12, // Yarıçapı 12 olarak ayarla
+            ),
+            Container(
+              decoration: BoxDecoration(
+                border: Border(
+                  bottom: BorderSide(color: Colors.grey, width: 1.0),
+                ),
+              ),
+              child: ListTile(
+                leading: Container(
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black.withOpacity(0.2), // Gölge rengi
+                        spreadRadius: 1,
+                        blurRadius: 5,
+                        offset: Offset(0, 2), // Gölgenin yerleşimi
+                      ),
+                    ],
                   ),
+                  child: CircleAvatar(
+                    backgroundImage: AssetImage('assets/flags/espanol.jpg'),
+                    radius: 12, // Yarıçapı 12 olarak ayarla
+                  ),
+                ),
                 title: Text('Español'),
                 onTap: () {
                   _changeLanguage('esp');
                   Navigator.pop(context);
                 },
               ),
-            ],
+            ),
+          ],
           ),
         );
       },
+      shape: RoundedRectangleBorder(
+      borderRadius: BorderRadius.vertical(
+        top: Radius.circular(20.0), // Üst kısmı yuvarlat
+      ),
+    ),
     );
   }
 

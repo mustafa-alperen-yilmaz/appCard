@@ -315,7 +315,592 @@
           "ru": "Все будет идеально",
           "esp": "Todo será perfecto"
         }
-      }
+      },
+      {
+        "id": 36,
+        "quotes": {
+          "tr": "Başarı sabır gerektirir",
+          "en": "Success requires patience",
+          "ru": "Успех требует терпения",
+          "esp": "El éxito requiere paciencia"
+        }
+      },
+      {
+        "id": 37,
+        "quotes": {
+          "tr": "Kendine inan",
+          "en": "Believe in yourself",
+          "ru": "Верь в себя",
+          "esp": "Cree en ti mismo"
+        }
+      },
+      {
+        "id": 38,
+        "quotes": {
+          "tr": "Hiçbir şey imkansız değildir",
+          "en": "Nothing is impossible",
+          "ru": "Нет ничего невозможного",
+          "esp": "Nada es imposible"
+        }
+      },
+      {
+        "id": 39,
+        "quotes": {
+          "tr": "Her zorlukta bir fırsat vardır",
+          "en": "Every challenge is an opportunity",
+          "ru": "Каждое испытание - это возможность",
+          "esp": "Cada desafío es una oportunidad"
+        }
+      },
+      {
+        "id": 40,
+        "quotes": {
+          "tr": "Gülümse ve dünya seninle gülsün",
+          "en": "Smile and the world smiles with you",
+          "ru": "Улыбнись, и мир улыбнется вместе с тобой",
+          "esp": "Sonríe y el mundo sonreirá contigo"
+        }
+      },
+      {
+        "id": 41,
+        "quotes": {
+          "tr": "Hayallerinin peşinden git",
+          "en": "Chase your dreams",
+          "ru": "Гонись за своими мечтами",
+          "esp": "Persigue tus sueños"
+        }
+      },
+      {
+        "id": 42,
+        "quotes": {
+          "tr": "Küçük adımlar büyük değişiklikler yaratır",
+          "en": "Small steps create big changes",
+          "ru": "Маленькие шаги создают большие перемены",
+          "esp": "Pequeños pasos crean grandes cambios"
+        }
+      },
+      {
+        "id": 43,
+        "quotes": {
+          "tr": "Bilgi güçtür",
+          "en": "Knowledge is power",
+          "ru": "Знание - это сила",
+          "esp": "El conocimiento es poder"
+        }
+      },
+      {
+        "id": 44,
+        "quotes": {
+          "tr": "İnancını asla kaybetme",
+          "en": "Never lose your faith",
+          "ru": "Никогда не теряй веру",
+          "esp": "Nunca pierdas la fe"
+        }
+      },
+      {
+        "id": 45,
+        "quotes": {
+          "tr": "Dostlarını iyi seç",
+          "en": "Choose your friends wisely",
+          "ru": "Выбирай друзей с умом",
+          "esp": "Elige a tus amigos sabiamente"
+        }
+      },
+      {
+        "id": 46,
+        "quotes": {
+          "tr": "Başarıya giden yol sabır ve azimle döşelidir",
+          "en": "The road to success is paved with patience and perseverance",
+          "ru": "Дорога к успеху вымощена терпением и настойчивостью",
+          "esp": "El camino al éxito está pavimentado con paciencia y perseverancia"
+        }
+      },
+      {
+        "id": 47,
+        "quotes": {
+          "tr": "Öğrenmek asla bitmeyen bir süreçtir",
+          "en": "Learning is a never-ending process",
+          "ru": "Обучение - это бесконечный процесс",
+          "esp": "El aprendizaje es un proceso interminable"
+        }
+      },
+      {
+        "id": 48,
+        "quotes": {
+          "tr": "Daha çok oku, daha çok öğren",
+          "en": "Read more, learn more",
+          "ru": "Читайте больше, учитесь больше",
+          "esp": "Lee más, aprende más"
+        }
+      },
+      {
+        "id": 49,
+        "quotes": {
+          "tr": "Küçük şeylerde mutluluğu bul",
+          "en": "Find happiness in small things",
+          "ru": "Найдите счастье в мелочах",
+          "esp": "Encuentra la felicidad en las pequeñas cosas"
+        }
+      },
+      {
+        "id": 50,
+        "quotes": {
+          "tr": "Kendine ve başkalarına karşı nazik ol",
+          "en": "Be kind to yourself and others",
+          "ru": "Будьте добры к себе и другим",
+          "esp": "Sé amable contigo mismo y con los demás"
+        }
+      },
+      {
+        "id": 51,
+        "quotes": {
+          "tr": "Başarı yolunda engeller olacaktır",
+          "en": "There will be obstacles on the road to success",
+          "ru": "На пути к успеху будут препятствия",
+          "esp": "Habrá obstáculos en el camino al éxito"
+        }
+      },
+      {
+        "id": 52,
+        "quotes": {
+          "tr": "Her yeni gün yeni bir fırsattır",
+          "en": "Every new day is a new opportunity",
+          "ru": "Каждый новый день - это новая возможность",
+          "esp": "Cada nuevo día es una nueva oportunidad"
+        }
+      },
+      {
+        "id": 53,
+        "quotes": {
+          "tr": "Düşmek, kalkmak için bir fırsattır",
+          "en": "Falling is an opportunity to get up",
+          "ru": "Падение - это возможность встать",
+          "esp": "Caer es una oportunidad para levantarse"
+        }
+      },
+      {
+        "id": 54,
+        "quotes": {
+          "tr": "Zamanla her şey düzelir",
+          "en": "With time, everything gets better",
+          "ru": "Со временем все становится лучше",
+          "esp": "Con el tiempo, todo mejora"
+        }
+      },
+      {
+        "id": 55,
+        "quotes": {
+          "tr": "Sevdiklerinize her zaman değer verin",
+          "en": "Always value your loved ones",
+          "ru": "Всегда цените своих близких",
+          "esp": "Siempre valora a tus seres queridos"
+        }
+      },
+      {
+        "id": 56,
+        "quotes": {
+          "tr": "Kendini geliştirmek için çalış",
+          "en": "Work on self-improvement",
+          "ru": "Работай над саморазвитием",
+          "esp": "Trabaja en tu mejora personal"
+        }
+      },
+      {
+        "id": 57,
+        "quotes": {
+          "tr": "Zorluklarla başa çıkmayı öğren",
+          "en": "Learn to deal with difficulties",
+          "ru": "Научись справляться с трудностями",
+          "esp": "Aprende a lidiar con las dificultades"
+        }
+      },
+      {
+        "id": 58,
+        "quotes": {
+          "tr": "Hayat kısa, anı yaşa",
+          "en": "Life is short, live in the moment",
+          "ru": "Жизнь коротка, живи настоящим",
+          "esp": "La vida es corta, vive el momento"
+        }
+      },
+      {
+        "id": 59,
+        "quotes": {
+          "tr": "Sağlığını ihmal etme",
+          "en": "Don't neglect your health",
+          "ru": "Не пренебрегай своим здоровьем",
+          "esp": "No descuides tu salud"
+        }
+      },
+      {
+        "id": 60,
+        "quotes": {
+          "tr": "Hayat bir yolculuktur, keyfini çıkar",
+          "en": "Life is a journey, enjoy it",
+          "ru": "Жизнь - это путешествие, наслаждайся",
+          "esp": "La vida es un viaje, disfrútalo"
+        }
+      },
+      {
+        "id": 61,
+        "quotes": {
+          "tr": "Düşüncelerini kontrol et, hayatını kontrol et",
+          "en": "Control your thoughts, control your life",
+          "ru": "Контролируй свои мысли, контролируй свою жизнь",
+          "esp": "Controla tus pensamientos, controla tu vida"
+        }
+      },
+      {
+        "id": 62,
+        "quotes": {
+          "tr": "Başarı sabırla gelir",
+          "en": "Success comes with patience",
+          "ru": "Успех приходит с терпением",
+          "esp": "El éxito viene con paciencia"
+        }
+      },
+      {
+        "id": 63,
+        "quotes": {
+          "tr": "Her şeyin bir zamanı vardır",
+          "en": "Everything has its time",
+          "ru": "Всему свое время",
+          "esp": "Todo tiene su tiempo"
+        }
+      },
+      {
+        "id": 64,
+        "quotes": {
+          "tr": "Hayat bir aynadır, gülersen o da güler",
+          "en": "Life is a mirror, if you smile, it smiles back",
+          "ru": "Жизнь - это зеркало, если ты улыбаешься, она улыбается в ответ",
+          "esp": "La vida es un espejo, si sonríes, te sonríe de vuelta"
+        }
+      },
+      {
+        "id": 65,
+        "quotes": {
+          "tr": "Korkularını yen",
+          "en": "Overcome your fears",
+          "ru": "Преодолей свои страхи",
+          "esp": "Supera tus miedos"
+        }
+      },
+      {
+        "id": 66,
+        "quotes": {
+          "tr": "Sevgi her şeyin anahtarıdır",
+          "en": "Love is the key to everything",
+          "ru": "Любовь - это ключ ко всему",
+          "esp": "El amor es la clave de todo"
+        }
+      },
+      {
+        "id": 67,
+        "quotes": {
+          "tr": "Kendinle barışık ol",
+          "en": "Be at peace with yourself",
+          "ru": "Будь в мире с собой",
+          "esp": "Estate en paz contigo mismo"
+        }
+      },
+      {
+        "id": 68,
+        "quotes": {
+          "tr": "Hayat derslerle doludur",
+          "en": "Life is full of lessons",
+          "ru": "Жизнь полна уроков",
+          "esp": "La vida está llena de lecciones"
+        }
+      },
+      {
+        "id": 69,
+        "quotes": {
+          "tr": "Öğrenmek asla sona ermez",
+          "en": "Learning never ends",
+          "ru": "Обучение никогда не заканчивается",
+          "esp": "El aprendizaje nunca termina"
+        }
+      },
+      {
+        "id": 70,
+        "quotes": {
+          "tr": "Her gün bir hediye",
+          "en": "Every day is a gift",
+          "ru": "Каждый день - это подарок",
+          "esp": "Cada día es un regalo"
+        }
+      },
+      {
+        "id": 71,
+        "quotes": {
+          "tr": "Pozitif düşün, pozitif yaşa",
+          "en": "Think positive, live positive",
+          "ru": "Думай позитивно, живи позитивно",
+          "esp": "Piensa positivo, vive positivo"
+        }
+      },
+      {
+        "id": 72,
+        "quotes": {
+          "tr": "Her zorluk bir fırsattır",
+          "en": "Every challenge is an opportunity",
+          "ru": "Каждое испытание - это возможность",
+          "esp": "Cada desafío es una oportunidad"
+        }
+      },
+      {
+        "id": 73,
+        "quotes": {
+          "tr": "Geleceğin için bugünden çalış",
+          "en": "Work today for your future",
+          "ru": "Работай сегодня для своего будущего",
+          "esp": "Trabaja hoy para tu futuro"
+        }
+      },
+      {
+        "id": 74,
+        "quotes": {
+          "tr": "Hayal etmek başarmanın yarısıdır",
+          "en": "Dreaming is half of achieving",
+          "ru": "Мечтать - это половина достижения",
+          "esp": "Soñar es la mitad del logro"
+        }
+      },
+      {
+        "id": 75,
+        "quotes": {
+          "tr": "Her gün yeni bir başlangıçtır",
+          "en": "Every day is a new beginning",
+          "ru": "Каждый день - это новое начало",
+          "esp": "Cada día es un nuevo comienzo"
+        }
+      },
+      {
+        "id": 76,
+        "quotes": {
+          "tr": "Kendine inan",
+          "en": "Believe in yourself",
+          "ru": "Верь в себя",
+          "esp": "Cree en ti mismo"
+        }
+      },
+      {
+        "id": 77,
+        "quotes": {
+          "tr": "Hayatın tadını çıkar",
+          "en": "Enjoy life",
+          "ru": "Наслаждайся жизнью",
+          "esp": "Disfruta la vida"
+        }
+      },
+      {
+        "id": 78,
+        "quotes": {
+          "tr": "Değişim kaçınılmazdır, ona ayak uydur",
+          "en": "Change is inevitable, adapt to it",
+          "ru": "Изменения неизбежны, адаптируйся к ним",
+          "esp": "El cambio es inevitable, adáptate a él"
+        }
+      },
+      {
+        "id": 79,
+        "quotes": {
+          "tr": "Her şey zamanla daha iyi olur",
+          "en": "Everything gets better with time",
+          "ru": "Со временем всё становится лучше",
+          "esp": "Todo mejora con el tiempo"
+        }
+      },
+      {
+        "id": 80,
+        "quotes": {
+          "tr": "Başarı yolunda sabırlı ol",
+          "en": "Be patient on the road to success",
+          "ru": "Будь терпелив на пути к успеху",
+          "esp": "Sé paciente en el camino al éxito"
+        }
+      },
+      {
+        "id": 81,
+        "quotes": {
+          "tr": "Hayat bir yolculuktur, keyfini çıkar",
+          "en": "Life is a journey, enjoy the ride",
+          "ru": "Жизнь - это путешествие, наслаждайся поездкой",
+          "esp": "La vida es un viaje, disfruta el paseo"
+        }
+      },
+      {
+        "id": 82,
+        "quotes": {
+          "tr": "Her yeni gün yeni bir fırsattır",
+          "en": "Every new day is a new opportunity",
+          "ru": "Каждый новый день - это новая возможность",
+          "esp": "Cada nuevo día es una nueva oportunidad"
+        }
+      },
+      {
+        "id": 83,
+        "quotes": {
+          "tr": "Kendi yolunu çiz",
+          "en": "Create your own path",
+          "ru": "Создавай свой собственный путь",
+          "esp": "Crea tu propio camino"
+        }
+      },
+      {
+        "id": 84,
+        "quotes": {
+          "tr": "Hayatta küçük şeylerden mutlu ol",
+          "en": "Be happy with the little things in life",
+          "ru": "Будь счастлив мелочами в жизни",
+          "esp": "Sé feliz con las pequeñas cosas de la vida"
+        }
+      },
+      {
+        "id": 85,
+        "quotes": {
+          "tr": "Kendine güven",
+          "en": "Trust yourself",
+          "ru": "Доверяй себе",
+          "esp": "Confía en ti mismo"
+        }
+      },
+      {
+        "id": 86,
+        "quotes": {
+          "tr": "Başarısızlık, başarıya giden yolda bir basamaktır",
+          "en": "Failure is a step on the road to success",
+          "ru": "Неудача - это шаг на пути к успеху",
+          "esp": "El fracaso es un paso en el camino al éxito"
+        }
+      },
+      {
+        "id": 87,
+        "quotes": {
+          "tr": "Her şeyin bir zamanı vardır",
+          "en": "Everything has its time",
+          "ru": "Всему своё время",
+          "esp": "Todo tiene su tiempo"
+        }
+      },
+      {
+        "id": 88,
+        "quotes": {
+          "tr": "Hayat bir aynadır, gülersen o da güler",
+          "en": "Life is a mirror, if you smile, it smiles back",
+          "ru": "Жизнь - это зеркало, если ты улыбаешься, она улыбается в ответ",
+          "esp": "La vida es un espejo, si sonríes, te sonríe de vuelta"
+        }
+      },
+      {
+        "id": 89,
+        "quotes": {
+          "tr": "Korkularını yen",
+          "en": "Overcome your fears",
+          "ru": "Преодолей свои страхи",
+          "esp": "Supera tus miedos"
+        }
+      },
+      {
+        "id": 90,
+        "quotes": {
+          "tr": "Sevgi her şeyin anahtarıdır",
+          "en": "Love is the key to everything",
+          "ru": "Любовь - это ключ ко всему",
+          "esp": "El amor es la clave de todo"
+        }
+      },
+      {
+        "id": 91,
+        "quotes": {
+          "tr": "Kendinle barışık ol",
+          "en": "Be at peace with yourself",
+          "ru": "Будь в мире с собой",
+          "esp": "Estate en paz contigo mismo"
+        }
+      },
+      {
+        "id": 92,
+        "quotes": {
+          "tr": "Hayat derslerle doludur",
+          "en": "Life is full of lessons",
+          "ru": "Жизнь полна уроков",
+          "esp": "La vida está llena de lecciones"
+        }
+      },
+      {
+        "id": 93,
+        "quotes": {
+          "tr": "Öğrenmek asla sona ermez",
+          "en": "Learning never ends",
+          "ru": "Обучение никогда не заканчивается",
+          "esp": "El aprendizaje nunca termina"
+        }
+      },
+      {
+        "id": 94,
+        "quotes": {
+          "tr": "Her gün bir hediye",
+          "en": "Every day is a gift",
+          "ru": "Каждый день - это подарок",
+          "esp": "Cada día es un regalo"
+        }
+      },
+      {
+        "id": 95,
+        "quotes": {
+          "tr": "Hayal et ve başar",
+          "en": "Dream and achieve",
+          "ru": "Мечтай и достигай",
+          "esp": "Sueña y logra"
+        }
+      },
+      {
+        "id": 96,
+        "quotes": {
+          "tr": "Yarınlar daha iyi olacak",
+          "en": "Tomorrow will be better",
+          "ru": "Завтра будет лучше",
+          "esp": "El mañana será mejor"
+        }
+      },
+      {
+        "id": 97,
+        "quotes": {
+          "tr": "Zorluklar seni güçlendirir",
+          "en": "Challenges make you stronger",
+          "ru": "Испытания делают тебя сильнее",
+          "esp": "Los desafíos te hacen más fuerte"
+        }
+      },
+      {
+        "id": 98,
+        "quotes": {
+          "tr": "Her yeni gün bir umut",
+          "en": "Every new day is a hope",
+          "ru": "Каждый новый день - это надежда",
+          "esp": "Cada nuevo día es una esperanza"
+        }
+      },
+      {
+        "id": 99,
+        "quotes": {
+          "tr": "Her şeyin en iyisini hak ediyorsun",
+          "en": "You deserve the best of everything",
+          "ru": "Ты заслуживаешь самого лучшего",
+          "esp": "Te mereces lo mejor de todo"
+        }
+      },
+      {
+        "id": 100,
+        "quotes": {
+          "tr": "Hayatın her anını yaşa",
+          "en": "Live every moment of life",
+          "ru": "Живи каждый момент жизни",
+          "esp": "Vive cada momento de la vida"
+        }
+      }      
     ]
   ]
 }

@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
   Future<void> loadRandomSentence() async {
     final jsonString = await rootBundle.loadString('assets/data.json');
     final dataMap = jsonDecode(jsonString) as Map<String, dynamic>;
-    final languageData = dataMap['büyük_languages'] as List<dynamic>;
+    final languageData = dataMap['big_languages'] as List<dynamic>;
 
     final randomIndex = Random().nextInt(languageData.length);
     final selectedSentence = languageData[randomIndex];
@@ -60,7 +60,7 @@ class _HomePageState extends State<HomePage> {
 
     setState(() {
       randomSentence = currentSentence['quotes'][selectedLanguage];
-      isBack = true; // Kartı her yüklemede arka yüze çevir
+      isBack = true;
     });
   }
 
@@ -141,7 +141,7 @@ class _HomePageState extends State<HomePage> {
 
     final jsonString = await rootBundle.loadString('assets/data.json');
     final dataMap = jsonDecode(jsonString) as Map<String, dynamic>;
-    final languageData = dataMap['büyük_languages'] as List<dynamic>;
+    final languageData = dataMap['big_languages'] as List<dynamic>;
 
     final currentSentence = languageData.firstWhere(
       (sentence) => sentence['id'] == currentSentenceId,

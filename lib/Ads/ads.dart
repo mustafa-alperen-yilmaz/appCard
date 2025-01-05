@@ -25,7 +25,7 @@ class _AdWidgetContainerState extends State<AdWidgetContainer> {
         },
         onAdFailedToLoad: (Ad ad, LoadAdError error) {
           ad.dispose();
-          print('Ad failed to load: $error');
+          print('Ad failed to load: ${error.message}');
         },
       ),
     );
@@ -34,17 +34,27 @@ class _AdWidgetContainerState extends State<AdWidgetContainer> {
   }
 
   @override
+  Widget build(BuildContext context) {
+    return Center(
+      child: _isAdLoaded 
+        ? Container(
+            width: _bannerAd.size.width.toDouble(),
+            height: _bannerAd.size.height.toDouble(),
+            child: AdWidget(ad: _bannerAd),
+          ) 
+        : Container(
+            width: 320, // Reklam boyutu yüklenene kadar geçici bir boyut
+            height: 50,
+            color: Colors.grey, // Geçici olarak gri bir kutu
+            child: Center(child: CircularProgressIndicator()),
+          ),
+    );
+  }
+
+  @override
   void dispose() {
     _bannerAd.dispose();
     super.dispose();
   }
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      width: _bannerAd.size.width.toDouble(),
-      height: _bannerAd.size.height.toDouble(),
-      child: _isAdLoaded ? AdWidget(ad: _bannerAd) : SizedBox(),
-    );
-  }
+  
 }

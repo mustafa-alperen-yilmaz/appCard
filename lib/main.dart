@@ -202,7 +202,8 @@ class _HomePageState extends State<HomePage> {
                   },
                 ),
               ),
-              AdWidgetContainer(), // This will display the banner ad
+              SizedBox(height: 16),
+              AdWidgetContainer(),
             ],
           ),
         ),
